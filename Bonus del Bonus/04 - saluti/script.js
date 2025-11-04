@@ -4,15 +4,19 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-function saluto(nome) {
-    messaggio = "Ciao " + nome;
-    return messaggio
-}
+// function saluto(nome) {
+//     messaggio = "Ciao " + nome;
+//     return messaggio
+// }
 
-// Invoca la funzione qui e stampa il risultato in console
-console.log(saluto("David"))
-console.log(saluto("Mario"))
+// // Invoca la funzione qui e stampa il risultato in console
+// console.log(saluto("David"))
+// console.log(saluto("Mario"))
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
 // io ho sono Narcisista ed ho passato David :)
+
+const saluto = (name) => `Ciao ${name}`
+
+console.log(saluto(name))
