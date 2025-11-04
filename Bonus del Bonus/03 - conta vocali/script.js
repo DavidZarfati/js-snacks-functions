@@ -29,6 +29,7 @@ const word = 'javascript';
 // TENTATIVO 2
 
 const vocali = (word) => {
+    // Ricordati Return 
     return word
         .split('')
         .filter(lettera => 'aeiou'.includes(lettera))
